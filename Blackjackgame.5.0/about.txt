@@ -1,0 +1,6 @@
+in version 3.0  we had already defined 5 image tags but in version 4.0 we dont have any image tag we are creating it on hiy click dynamically.
+we also have media query for 1000px
+
+
+
+Full Responsive

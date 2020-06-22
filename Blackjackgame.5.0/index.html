@@ -1,0 +1,67 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlackJack</title>
+    <style>
+    body{
+        background-image: url("images/backgrounds.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    .container{
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    button{
+        width: 100px;
+        height: 35px;
+        background-color: rgb(41, 41, 255);
+        color: white;
+        border-radius: 5px;
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+
+    @media (max-width:600px){
+        p{
+            font-size: 13px;
+        }
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <h1>How to Play Blackjack</h1>
+        <p>
+            1. This is a game between player and dealer.<br><br>
+            2. In this 2 to 10 cards has their own value like card 2 has value 2.<br><br>
+            3. In this game A has two values 1 and 11. The value will depend on your score.<br><br>
+            4. J,Q,K has the value same value that is 10.<br><br>
+            5. Here you need to score as near to 21 as you can.But if your score will get higher than 21    
+               than you will be bust means you will lose the game.<br><br>
+            6. You can press the hit button and it will generate random card that card's 
+               value will be added to the score.<br><br>
+            7. you can press hit button as many time as you want.once you feel like this is the nearest 
+               value from 21 and you want to use it as your score, press stand button.<br><br>
+            8. When you will press button, the dealer will generate his cards and try to get higher score 
+               than yours.<br><br>
+            9. if dealer gets bust then you will win and if dealer gets score which is higher than yours and
+               below or equal to 21 then you will lose.<br><br>
+            10. as an example suppose you press stand at score 20 and dealer gets the score 21 than you will lose.  <br><br>
+        </p>
+
+        <button onclick="start()">Let's Start</button>
+    </div>
+    <script>
+        function start(){
+            window.open("main.html","_self");
+        }
+    </script>
+</body>
+</html>
